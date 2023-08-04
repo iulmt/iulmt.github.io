@@ -156,6 +156,7 @@ yay -S dolphin
 yay -S papirus-icon-theme
 ```
 # 安装nvidia驱动
+[看文章](https://www.littlezhang.com/2021/09/arch-linux-%E5%AE%89%E8%A3%85-nvidia-%E4%B8%93%E6%9C%89%E9%A9%B1%E5%8A%A8/)
 ```
 sudo pamcan -S nvidia-dkms nvidia-prime
 # 查看驱动是否安装成功
