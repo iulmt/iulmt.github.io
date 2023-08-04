@@ -1,1 +1,1 @@
-我的第一个页面
+[Install Archlinux](./install-archlinux.md)
