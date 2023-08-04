@@ -1,1 +1,2 @@
-[Install Archlinux](./install-archlinux.md)
+[安装Archlinux过程记录](./install-archlinux.md) $ [使用Github部署个人博客](./使用Github部署个人博客.md)
+ 
