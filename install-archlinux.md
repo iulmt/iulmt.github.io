@@ -5,7 +5,7 @@ reflector -c china -p https -l 10 --sort rate --save /etc/pacman.d/mirrorlist
 # 开始安装
 archinstall
 ```
-# *安装必要的程序*
+# 安装必要的程序
 ```bash
 # 编辑器
 sudo pacman -S neovim
@@ -21,9 +21,9 @@ sudo pacman -S yay
 # 安装chrome
 yay -S google-chrome
 ```
-# *安装显示管理器（登录界面程序）*
+# 安装显示管理器（登录界面程序）
 略
-# *安装qtile窗口管理器*
+# 安装qtile窗口管理器
 ```python
 sudo pacman -S xorg
 # 安装qtile窗口管理器，安装lightdm显示管理器，
@@ -32,7 +32,7 @@ sudo pacman -S qtile lightdm lightdm-gtk-greeter lightdm-webkit-theme-litarvan k
 # 显示管理器开启服务自启动
 sudo systemctl enable lightdm
 # 编辑/etc/lightdm/lightdm.conf文件
-[Seat:*]
+[Seat:]
 greeter-session=lightdm-webkit2-greeter
 # 编辑/etc/lightdm/lightdm-webkit2-greeter.conf
 [greeter]
@@ -64,7 +64,7 @@ sudo mkinitcpio -p linux
 cp /etc/vmware-tools/vmware-user.desktop /etc/xdg/autostart/vmware-user.desktop
 # 重启系统
 ```
-# *安装zsh*
+# 安装zsh
 ```
 sudo pacman -S zsh
 # 安装oh-my-zsh
@@ -77,14 +77,14 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 # 应用修改
 source ~/.zshrc
 ```
-# *安装rofi*
+# 安装rofi
 ```
 yay -S rofi
 # 编辑文件,添加快捷键 /home/[user]/.config/qtile/config.py
 Key(["mod1"], "space", lazy.spawn("rofi -show drun"), desc="Launch Rofi")
 # 重启
 ```
-# *解决中文乱码*
+# 解决中文乱码
 ```
 # 编辑文件 /etc/locale.gen 解除注释
 zh_CN.GB18030 GB18030
@@ -95,7 +95,7 @@ sudo locale-gen
 # 安装支持中文的字体 
 sudo pacman -S wqy-zenhei 
 ```
-# *安装中文输入法*
+# 安装中文输入法
 ```
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-rime
 # 编辑文件/etc/environment
