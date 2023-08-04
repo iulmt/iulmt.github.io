@@ -158,4 +158,6 @@ yay -S papirus-icon-theme
 # 安装nvidia驱动
 ```
 sudo pamcan -S nvidia-dkms nvidia-prime
+# 查看驱动是否安装成功
+prime-run glxinfo | grep OpenGL
 ```
