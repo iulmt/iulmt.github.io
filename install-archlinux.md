@@ -1,4 +1,4 @@
-# *使用archinstall最小化安装*
+# 安装Archlinux
 ```
 # 切换源
 reflector -c china -p https -l 10 --sort rate --save /etc/pacman.d/mirrorlist
