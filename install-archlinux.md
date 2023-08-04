@@ -92,7 +92,7 @@ zh_CN.GBK GBK
 zh_CN.UTF-8 UTF-8
 # 生成语言包
 sudo locale-gen
-# 安装支持中文的字体，人选其一
+# 安装支持中文的字体，任选其一
 sudo pacman -S wqy-zenhei 
 sudo pacman -S ttf-ubraille
 sudo pacman -S ttf-symbola
