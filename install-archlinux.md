@@ -92,8 +92,43 @@ zh_CN.GBK GBK
 zh_CN.UTF-8 UTF-8
 # 生成语言包
 sudo locale-gen
-# 安装支持中文的字体 
+# 安装支持中文的字体，人选其一
 sudo pacman -S wqy-zenhei 
+sudo pacman -S ttf-ubraille
+sudo pacman -S ttf-symbola
+sudo pacman -S texlive-core
+sudo pacman -S noto-fonts-emoji
+sudo pacman -S ttf-cm-unicode
+sudo pacman -S otf-latin-modern
+sudo pacman -S otf-xits
+sudo pacman -S ttf-joypixels
+sudo pacman -S ttf-twemoji-color
+sudo pacman -S adobe-source-han-sans-otc-fonts
+sudo pacman -S adobe-source-han-serif-otc-fonts
+sudo pacman -S noto-fonts-cjk
+sudo pacman -S wqy-microhei
+sudo pacman -S wqy-microhei-lite
+sudo pacman -S ttf-i.bming
+sudo pacman -S adobe-source-han-serif-cn-fonts
+sudo pacman -S adobe-source-han-serif-tw-fonts
+sudo pacman -S adobe-source-han-sans-cn-fonts
+sudo pacman -S adobe-source-han-sans-tw-fonts
+sudo pacman -S noto-fonts-sc
+sudo pacman -S noto-fonts-tc
+sudo pacman -S wqy-zenhei
+sudo pacman -S wqy-bitmapfont
+sudo pacman -S ttf-arphic-ukai
+sudo pacman -S ttf-arphic-uming
+sudo pacman -S opendesktop-fonts
+sudo pacman -S ttf-hannom
+sudo pacman -S ttf-tw
+sudo pacman -S ttf-twcns-fonts
+sudo pacman -S ttf-ms-win8-zh_cn
+sudo pacman -S ttf-ms-win8-zh_tw
+sudo pacman -S ttf-ms-win10-zh_cn
+sudo pacman -S ttf-ms-win10-zh_tw
+sudo pacman -S fonts-cjk
+sudo pacman -S fonts-cjk-sc-yrdzst
 ```
 # 安装中文输入法
 ```
