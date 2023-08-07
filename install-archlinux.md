@@ -166,3 +166,7 @@ prime-run glxinfo | grep OpenGL
 ```
 sudo pacman -S packagekit-qt5
 ```
+# pycharm激活
+```
+https://33tool.com/idea/
+```
