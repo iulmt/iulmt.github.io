@@ -162,3 +162,7 @@ sudo pamcan -S nvidia-dkms nvidia-prime
 # 查看驱动是否安装成功
 prime-run glxinfo | grep OpenGL
 ```
+# 修复Discover不能正常使用的问题
+```
+sudo pacman -S packagekit-qt5
+```
